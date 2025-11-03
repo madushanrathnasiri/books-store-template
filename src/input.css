@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+    --font-poppins: "Poppins", sans-serif;
+    --font-libre: "Libre Baskerville", serif;
+
+    --font-weight-base: 400;
+    --font-weight-sub: 500;
+    --font-weight-heading: 700;
+
+    --color-clr-base: #f59e0b;
+    --color-clr-gray: #7e7e7e;
+    --color-clr-white: #ffffff;
+    --color-clr-light: #e7e6e0;
+    --color-clr-black: #000000;
+}
