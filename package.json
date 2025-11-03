@@ -1,0 +1,20 @@
+{
+  "name": "books-store",
+  "version": "1.0.0",
+  "description": "This is online books store template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.0"
+  }
+}
